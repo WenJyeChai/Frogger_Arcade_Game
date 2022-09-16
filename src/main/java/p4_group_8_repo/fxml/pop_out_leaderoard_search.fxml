@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:src/main/resources/Image/fxml_bg/blank_pop_out_window.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="close_button" layoutX="239.0" layoutY="9.0" mnemonicParsing="false" opacity="0.0" prefHeight="57.0" prefWidth="48.0" text="close" onAction="#close_window">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="query_name" layoutX="22.0" layoutY="9.0" prefHeight="57.0" prefWidth="183.0" text="" textFill="#059070">
+         <font>
+            <Font name="Franklin Gothic Demi" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="query_context" layoutX="22.0" layoutY="55.0" prefHeight="92.0" prefWidth="264.0" text="Your score is               points. Keep it up !" textFill="#0e80ad" wrapText="true">
+         <font>
+            <Font name="Franklin Gothic Demi" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="57.0" fitWidth="54.0" layoutX="228.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:src/Image/frog%20_icon.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="query_score" alignment="CENTER" layoutX="140.0" layoutY="75.0" prefHeight="31.0" prefWidth="78.0" text="" textFill="#ff8800" wrapText="true">
+         <font>
+            <Font name="Franklin Gothic Demi" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
