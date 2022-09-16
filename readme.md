@@ -1,8 +1,5 @@
 ﻿
 # Frogger Arcade  
-##### Name : Chai Wen Jye
-##### Student Id: 20113681
-##### Github Link : https://github.com/032310/COMP2042_CW_ChaiWenJye
   
   
 # Key Changes
