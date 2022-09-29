@@ -2,8 +2,8 @@
 # Frogger Arcade  
   
 <p float="left">
-	<img src="Frogger_login.png" width="450" />
-	<img src="Frogger.png" width="450" />
+	<img src="Frogger_login.png" width="350" />
+	<img src="Frogger.png" width="350" />
 <\p>
 
 
